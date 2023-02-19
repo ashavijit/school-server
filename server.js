@@ -7,13 +7,13 @@ const courses_route = require("./routes/Courses.route");
 const Task = require("./routes/Task.js");
 const Quiz = require("./routes/Quiz.js");
 const Grade = require("./routes/Grade.js");
-//Omar
+
 var questionRouter = require("./routes/question");
 var anwerRouter = require("./routes/answer");
 var CommentCourse = require("./routes/CommentCourse");
 var Notification = require("./routes/notification");
 
-//Hamza routes
+
 const ClassRouter = require("./routes/Class.js");
 const SchedulerRouter = require("./routes/Scheduler.js");
 const InvitationClassRouter = require("./routes/InvitationClass.js");
@@ -76,7 +76,7 @@ app.use("/answer", anwerRouter);
 app.use("/coursesComment", CommentCourse);
 app.use("/notification", Notification);
 
-//Hamza routes:
+
 app.use("/class", ClassRouter);
 app.use("/scheduler", SchedulerRouter);
 app.use("/invitationclass", InvitationClassRouter);
